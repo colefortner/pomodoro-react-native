@@ -22,7 +22,7 @@ export const Focus = ({ addSubject }) => {
             size={50}
             title="+"
             onPress={() => {
-              addSubject(tmpItem);
+              addSubject(subject);
             }}
           />
         </View>
